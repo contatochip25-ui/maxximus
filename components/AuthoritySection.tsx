@@ -3,9 +3,9 @@ import { Check, BarChart2 } from 'lucide-react';
 
 const AuthoritySection: React.FC = () => {
   const tickets = [
-    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete1.jpeg",
-    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete2.jpeg",
-    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete3.jpeg"
+    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete5.jpeg",
+    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete6.jpeg",
+    "https://raw.githubusercontent.com/contatochip25-ui/DR.THIAGO-COSTA/main/public/images/bilhete7.jpeg"
   ];
 
   return (
