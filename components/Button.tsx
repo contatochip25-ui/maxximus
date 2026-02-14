@@ -9,9 +9,14 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ text, subtext, fullWidth = false, className = '' }) => {
+  const handleClick = () => {
+    window.open('https://chat.whatsapp.com/BzsUwu8bOsEDlrPISjVuIY?mode=gi_t', '_blank');
+  };
+
   return (
     <div className={`flex flex-col items-center ${fullWidth ? 'w-full' : 'w-auto'} ${className}`}>
       <button
+        onClick={handleClick}
         className={`
           group relative flex items-center justify-center gap-3
           bg-brand-neon hover:bg-brand-neonhover
